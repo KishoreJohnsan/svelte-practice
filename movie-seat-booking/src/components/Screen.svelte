@@ -1,0 +1,16 @@
+<script>
+
+</script>
+
+<style>
+  .screen {
+    background-color: #fff;
+    height: 70px;
+    width: 100%;
+    margin: 15px 0;
+    transform: rotateX(-45deg);
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+  }
+</style>
+
+<div class="screen" />
