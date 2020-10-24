@@ -43,7 +43,7 @@
   const handleLoading = () => {
     const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
 
-    if (scrollTop + clientHeight >= scrollHeight - 5) {
+    if (scrollHeight - scrollTop === clientHeight) {
       showLoading();
     }
   };
